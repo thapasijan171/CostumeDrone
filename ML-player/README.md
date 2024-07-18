@@ -13,3 +13,6 @@ A ML Media player is a software application or a hardware device that allows use
 # Usage
 
 To use ML Media Player, save the HTML, CSS, and JavaScript code in their respective files (index.html, styles.css, scripts.js). Open index.html in a web browser to see the custom video player in action.
+
+# Demo 
+![screenshot](ML.png)
