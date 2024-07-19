@@ -145,6 +145,7 @@ const volumeDownHandler = () => {
 function showToast(message) {
     // toast show
     toast.textContent = message;
+    // make sured => display as a block 
     toast.style.display = "block";
     setTimeout(() => {
         toast.style.display = "none"
