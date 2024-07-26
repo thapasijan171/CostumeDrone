@@ -27,13 +27,15 @@
     .container {
         height: 500px;
         width: 500px;
-        background-color: slategray;
+        background-color: rgb(0, 183, 255);
         /* using flex  */
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         animation: rotate-bg 4s linear infinite alternate;
+        border-radius: 20%;
+        border: 30px solid lightgreen;
     }
 
 
@@ -61,6 +63,8 @@
         }
 
         50% {
+            background-color: yellow;
+            border-color: skyblue;
             opacity: 1;
         }
     }
@@ -79,6 +83,7 @@
 
         50% {
             border-radius: 50%;
+            background-color: aqua;
         }
 
         66% {
