@@ -1,0 +1,197 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Motor_2",
+            "translation" : [
+                -0.019896626472473145,
+                0.29265356063842773,
+                -0.11244988441467285
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Motor1.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.03399515897035599,
+                    0.05522574856877327,
+                    1
+                ],
+                "roughnessFactor" : 0.21144279837608337
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Plateado",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6845876574516296,
+                    0.8000000715255737,
+                    0.7278389930725098,
+                    1
+                ],
+                "roughnessFactor" : 0.21144279837608337
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle.047",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 5838,
+            "max" : [
+                1.4281309843063354,
+                0.0934116542339325,
+                1.5279533863067627
+            ],
+            "min" : [
+                -1.4281309843063354,
+                -0.09341162443161011,
+                -1.5279533863067627
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 5838,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 5838,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 13749,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2028,
+            "max" : [
+                1.4156217575073242,
+                0.0934116542339325,
+                1.515444278717041
+            ],
+            "min" : [
+                -1.4156216382980347,
+                0.009471982717514038,
+                -1.5154441595077515
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2028,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2028,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 3903,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 70056,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70056,
+            "byteOffset" : 70056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 46704,
+            "byteOffset" : 140112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27498,
+            "byteOffset" : 186816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24336,
+            "byteOffset" : 214316
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24336,
+            "byteOffset" : 238652
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16224,
+            "byteOffset" : 262988
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7806,
+            "byteOffset" : 279212
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 287020,
+            "uri" : "Motor2.bin"
+        }
+    ]
+}

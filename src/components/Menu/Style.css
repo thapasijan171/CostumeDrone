@@ -1,0 +1,80 @@
+.MenuContainer {
+  width: 100%;
+  position: absolute;
+  bottom: 12rem;
+  left: 0;
+}
+
+.MenuWrapper {
+  margin: auto;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.MenuOptions h1 {
+  text-align: center;
+  color: #eee;
+  font-size: 3em;
+  font-family: sans-serif;
+}
+
+.MenuOptionsList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.MenuOptionsList li {
+  padding: 0.5rem;
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.MenuOptionsList select {
+  width: 120px;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 10px;
+
+  font-size: 1rem;
+  color: #8c8c8c;
+  font-weight: 400;
+}
+
+.VistaGeneral {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.VistaGeneral button {
+  margin-left: 0.5rem;
+  opacity: 1;
+  margin-top: 0.5rem;
+  width: 150px;
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 10px;
+  background-color: #11597b;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.VistaGeneral button:hover {
+  transition: 0.3s all ease;
+  background-color: #2ff9d6;
+}

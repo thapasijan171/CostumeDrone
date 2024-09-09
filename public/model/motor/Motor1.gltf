@@ -1,0 +1,218 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Motor_1"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Motor2",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.09842270612716675,
+                    0.7513090372085571,
+                    1
+                ],
+                "roughnessFactor" : 0.21144279837608337
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Plateado",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6845876574516296,
+                    0.8000000715255737,
+                    0.7278389930725098,
+                    1
+                ],
+                "roughnessFactor" : 0.21144279837608337
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle.039",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "COLOR_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TEXCOORD_0" : 7,
+                        "COLOR_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 6042,
+            "max" : [
+                1.4017560482025146,
+                0.38549211621284485,
+                1.412598967552185
+            ],
+            "min" : [
+                -1.4499199390411377,
+                0.19882528483867645,
+                -1.6272200345993042
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6042,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6042,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6042,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 12786,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1198,
+            "max" : [
+                1.3922340869903564,
+                0.38549214601516724,
+                1.3973634243011475
+            ],
+            "min" : [
+                -1.4364182949066162,
+                0.2813449800014496,
+                -1.6266685724258423
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1198,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 1198,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 1198,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 2358,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 72504,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72504,
+            "byteOffset" : 72504
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48336,
+            "byteOffset" : 145008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48336,
+            "byteOffset" : 193344
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25572,
+            "byteOffset" : 241680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14376,
+            "byteOffset" : 267252
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14376,
+            "byteOffset" : 281628
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9584,
+            "byteOffset" : 296004
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9584,
+            "byteOffset" : 305588
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4716,
+            "byteOffset" : 315172
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 319888,
+            "uri" : "Motor1.bin"
+        }
+    ]
+}
