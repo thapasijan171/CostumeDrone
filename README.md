@@ -15,7 +15,7 @@ In this Projects, the focus is on creating a 3D drone customization system. The 
 3. Technical Steps
     - Downloading Templates:
         - Copy the provided link to download the project template.
-        - Use the terminal command `git clone <link>` to download the code.
+        - Use the terminal command `git clone https://github.com/thapasijan171/CostumeDrone.git` to download the code.
         - Navigate to the project folder and run npm install to install necessary dependencies like Tree, GSAP, and DUI for animations.
 
 4. Setting Up the Scene
